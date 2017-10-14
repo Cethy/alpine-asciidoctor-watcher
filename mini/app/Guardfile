@@ -1,0 +1,10 @@
+Bundler.require :default
+interactor :off
+
+guard :shell do
+  watch /^.*\.(asc|md)$/ do |m|
+    puts m[0] + " has changed."
+    `build.sh`
+  end
+end
+

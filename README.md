@@ -169,4 +169,4 @@ This variant is a trimmed down version containing only the necessary to build ba
 - WIP asciidoctor livereload environment [cethy/asciidoctor-livereload]()
 
 ## Todo
-- exit gracefully from the container
+- unduplicate `app/` & `entrypoint.sh` (app builder image ?)
