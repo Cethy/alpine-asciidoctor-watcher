@@ -161,13 +161,12 @@ This variant is a trimmed down version containing only the necessary to build ba
 ## Misc
 
 ### Base images
-[cethy/alpine-asciidoctor-builder](https://github.com/Cethy/alpine-asciidoctor-builder)
 [rochdev/docker-alpine-asciidoctor](https://github.com/rochdev/docker-alpine-asciidoctor)
 
 ### Related work
-- asciidoctor builder docker image [cethy/alpine-asciidoctor-builder](https://github.com/Cethy/alpine-asciidoctor-builder) 
+- Asciidoctor builder docker image [cethy/alpine-asciidoctor-builder](https://github.com/Cethy/alpine-asciidoctor-builder) 
 ([on docker hub](https://hub.docker.com/r/cethy/alpine-asciidoctor-builder/))
-- WIP asciidoctor livereload environment [cethy/asciidoctor-livereload]()
+- Asciidoctor livereload environment [cethy/asciidoctor-livereload](https://github.com/Cethy/asciidoctor-livereload)
 
 ## Todo
 - unduplicate `app/` & `entrypoint.sh` (app builder image ?)
