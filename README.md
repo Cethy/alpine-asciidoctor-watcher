@@ -20,8 +20,9 @@ The watcher needs to have 2 volumes :
         -v <host output directory>:/output/ \
         cethy/alpine-asciidoctor-watcher:micro
 
-**note** : the host directories can be the same (and must be absolute).
-**note2** : `-ti` is needed to be able to quit guard with `ctrl+c`.
+**notes** 
+- the host directories can be the same (and must be absolute) ;
+- `-ti` is needed to be able to quit guard with `ctrl+c`.
 
 Example usage with a local directory :
 
